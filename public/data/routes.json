@@ -1,0 +1,89 @@
+[
+  {
+    "id": "baikal",
+    "name": "Байкал — мыс Хобой",
+    "rating": 4.8,
+    "author": "@naturelover",
+    "location": "Иркутская область, Россия",
+    "shortDescription": "Пеший маршрут по северу Ольхона с видами на Байкал.",
+    "stats": {
+      "lengthKm": 12.2,
+      "elevationGainM": 193,
+      "estimatedTimeH": 2.82
+    },
+    "description": "Маршрут проходит по скальным берегам мыса Хобой. Лучшие виды на ледовые торосы зимой и бирюзовую воду летом.",
+    "coords": { "lat": 53.3866, "lng": 107.4011 },
+    "images": [
+      "https://images.unsplash.com/photo-1612351672679-6ef5f7955da3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=800&auto=format&fit=crop"
+    ],
+    "features": [
+      "Тёплая куртка и ветрозащита",
+      "Термос с горячим чаем",
+      "Кошки/ледоступы зимой"
+    ],
+    "reviews": [
+      { "user": "Анна", "rating": 5, "text": "Виды потрясающие! Лёд как стекло." },
+      { "user": "Павел", "rating": 4, "text": "Чуть скользко на подъёмах, берите треккинговые палки." }
+    ]
+  },
+  {
+    "id": "kamchatka",
+    "name": "Камчатка — Мутновский вулкан",
+    "rating": 4.9,
+    "author": "@volcano",
+    "location": "Камчатский край, Россия",
+    "shortDescription": "Треккинг к кратеру Мутновского с фумаролами и ледниками.",
+    "stats": {
+      "lengthKm": 9.6,
+      "elevationGainM": 540,
+      "estimatedTimeH": 4.5
+    },
+    "description": "Путь к кратеру проходит вдоль каньонов и снежников. Запах серы и шум фумарол — незабываемые впечатления.",
+    "coords": { "lat": 52.455, "lng": 158.195 },
+    "images": [
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543946475-59d0da6a27a6?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop"
+    ],
+    "features": [
+      "Непромокаемая обувь",
+      "Бафф или маска от серных газов",
+      "Запас воды"
+    ],
+    "reviews": [
+      { "user": "Игорь", "rating": 5, "text": "Огромный кратер, мощь природы." },
+      { "user": "Юлия", "rating": 5, "text": "Сложно, но очень красиво." }
+    ]
+  },
+  {
+    "id": "caucasus",
+    "name": "Кавказ — Гвелети и Дарьял",
+    "rating": 4.6,
+    "author": "@mountainfox",
+    "location": "Казбеги, Грузия",
+    "shortDescription": "Водопады Гвелети и виды на ущелье Дарьял.",
+    "stats": {
+      "lengthKm": 7.4,
+      "elevationGainM": 260,
+      "estimatedTimeH": 2.1
+    },
+    "description": "Неспешный маршрут к Большому Гвелети и прогулка по ущелью с панорамой Казбека.",
+    "coords": { "lat": 42.7427, "lng": 44.6453 },
+    "images": [
+      "https://images.unsplash.com/photo-1526481280698-8fcc13fd91c0?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800&auto=format&fit=crop"
+    ],
+    "features": [
+      "Лёгкая ветровка",
+      "Трекинговая обувь",
+      "Перекус и вода"
+    ],
+    "reviews": [
+      { "user": "Нино", "rating": 4, "text": "Красиво и доступно для новичков." },
+      { "user": "Гия", "rating": 5, "text": "Водопады мощные весной!" }
+    ]
+  }
+]

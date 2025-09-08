@@ -3,6 +3,7 @@
     "id": "baikal",
     "name": "Байкал — мыс Хобой",
     "rating": 4.8,
+    "difficulty": 4,
     "author": "@naturelover",
     "location": "Иркутская область, Россия",
     "shortDescription": "Пеший маршрут по северу Ольхона с видами на Байкал.",
@@ -29,9 +30,78 @@
     ]
   },
   {
+    "id": "altai",
+    "name": "Алтай — озеро Телецкое",
+    "rating": 4.7,
+    "difficulty": 5,
+    "author": "@altaiguide",
+    "location": "Республика Алтай, Россия",
+    "shortDescription": "Маршруты вокруг Телецкого, пляжи и смотровые.",
+    "stats": { "lengthKm": 14.2, "elevationGainM": 320, "estimatedTimeH": 3.2 },
+    "description": "Гребни, лесные тропы и виды на Телецкое озеро.",
+    "coords": { "lat": 51.785, "lng": 87.277 },
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "features": ["Обувь с протектором", "Дождевик", "Фотокамера"],
+    "reviews": [ { "user": "Сергей", "rating": 5, "text": "Красота!" } ]
+  },
+  {
+    "id": "karelia",
+    "name": "Карелия — Кижи и лесные тропы",
+    "rating": 4.5,
+    "difficulty": 2,
+    "author": "@northwalker",
+    "location": "Республика Карелия, Россия",
+    "shortDescription": "Прогулки по островам и хвойным лесам.",
+    "stats": { "lengthKm": 6.1, "elevationGainM": 80, "estimatedTimeH": 1.5 },
+    "description": "Музей Кижи и тихие тропы в сосновых борах.",
+    "coords": { "lat": 62.070, "lng": 35.225 },
+    "images": [
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "features": ["Термос", "Удобная обувь"],
+    "reviews": []
+  },
+  {
+    "id": "sochi",
+    "name": "Сочи — Роза Хутор тропы",
+    "rating": 4.4,
+    "difficulty": 6,
+    "author": "@rosatrails",
+    "location": "Красная Поляна, Россия",
+    "shortDescription": "Горные тропы и виды на Кавказ.",
+    "stats": { "lengthKm": 10.3, "elevationGainM": 460, "estimatedTimeH": 3.8 },
+    "description": "Серпантины, панорамы и альпийские луга летом.",
+    "coords": { "lat": 43.671, "lng": 40.297 },
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "features": ["Трекинговые палки", "Вода"],
+    "reviews": []
+  },
+  {
+    "id": "norway",
+    "name": "Норвегия — Прекестулен",
+    "rating": 4.9,
+    "difficulty": 7,
+    "author": "@fjord",
+    "location": "Рьюфюльке, Норвегия",
+    "shortDescription": "Скала Проповедника над фьордом.",
+    "stats": { "lengthKm": 8.0, "elevationGainM": 500, "estimatedTimeH": 4.0 },
+    "description": "Каменные ступени, виды на Люсе-фьорд, популярный маршрут.",
+    "coords": { "lat": 58.986, "lng": 6.160 },
+    "images": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "features": ["Тёплая куртка", "Ботинки"],
+    "reviews": []
+  },
+  {
     "id": "kamchatka",
     "name": "Камчатка — Мутновский вулкан",
     "rating": 4.9,
+    "difficulty": 8,
     "author": "@volcano",
     "location": "Камчатский край, Россия",
     "shortDescription": "Треккинг к кратеру Мутновского с фумаролами и ледниками.",
@@ -61,6 +131,7 @@
     "id": "caucasus",
     "name": "Кавказ — Гвелети и Дарьял",
     "rating": 4.6,
+    "difficulty": 3,
     "author": "@mountainfox",
     "location": "Казбеги, Грузия",
     "shortDescription": "Водопады Гвелети и виды на ущелье Дарьял.",

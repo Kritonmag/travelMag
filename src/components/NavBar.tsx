@@ -25,6 +25,7 @@ function NavBar() {
       </Link>
       <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
         <Link to="/" className="btn ghost">{t('navbar.home')}</Link>
+        <button className="btn primary">{t('navbar.login')}</button>
         <button onClick={switchLanguage} className="btn ghost" style={{ width: 44, justifyContent: 'center' }}>
           {i18n.language === 'ru' ? 'EN' : 'RU'}
         </button>

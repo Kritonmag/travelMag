@@ -14,6 +14,7 @@ export type RouteItem = {
   id: string
   name: string
   rating: number
+  difficulty?: number
   author: string
   location: string
   shortDescription: string
@@ -29,7 +30,9 @@ let cache: RouteItem[] | null = null
 
 export async function fetchRoutes(): Promise<RouteItem[]> {
   if (cache) return cache
-  const res = await fetch('/data/routes.json')
+  const rawBase = import.meta.env.BASE_URL || '/'
+  const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`
+  const res = await fetch(`${base}data/routes.json`)
   if (!res.ok) throw new Error('Failed to load routes')
   cache = (await res.json()) as RouteItem[]
   return cache
